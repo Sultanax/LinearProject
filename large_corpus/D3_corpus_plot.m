@@ -1,4 +1,4 @@
-corpus = readtable('corpus.csv');
+corpus = readtable('../corpus.csv');
 emb = fastTextWordEmbedding;
 text_column = corpus.text; 
 
